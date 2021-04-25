@@ -1,0 +1,124 @@
+form {
+    border: 1px solid #f1f1f1;
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+body {
+    background-color: #FFFAF0;
+}
+
+input[type=text], input[type=password], input[type=date], input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 10em;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    display: flex;
+    width: 100%;
+}
+
+img.avatar {
+    width: 100%;
+    border-radius: 50%;
+    padding: 5%;
+    margin: 8px 0;
+    border: none;
+}
+
+img.avatar2 {
+    width: 100%;
+    border-radius: 50%;
+    padding: 5%;
+    margin: 8px 0;
+    border: none;
+}
+
+
+.container {
+    padding: 16px;
+    width: 50%;
+}
+
+@media screen and (max-width: 500px) {
+    
+    span.senha {
+        display:block;
+        float: none;
+    }
+    .cadastrar {
+        width: 100%;
+    }
+    .column{
+        width: 100%;
+    }
+    fieldset{
+        width: 100%;
+    }
+    
+}
+
+.container_img {
+    float: left;
+    width: 50%;
+    padding: 2px;
+    margin-left: 10%;
+
+}
+
+.container_img2 {
+    float: right;
+    width: 50%;
+    margin-right: 0%;
+}
+
+h1 {
+    display: block;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 0.8em;
+    margin-left: 4em;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.formulario {
+    width: 100%;
+}
+
+fieldset {
+    width: 100%;
+}
+
+
